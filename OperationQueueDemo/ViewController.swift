@@ -8,7 +8,7 @@
 
 import UIKit
 
-let imageURLs = ["http://www.planetware.com/photos-large/F/france-paris-eiffel-tower.jpg", "http://adriatic-lines.com/wp-content/uploads/2015/04/canal-of-Venice.jpg", "http://bbs.nju.edu.cn/file/Pictures/nju_bbs17111209464844.jpg", "http://news.nju.edu.cn/uploadfiles/images/2017/2017_11/dce41d4692ea5c2aeb81af1a97e40c43.JPG"]
+let imageURLs = ["http://www.planetware.com/photos-large/F/france-paris-eiffel-tower.jpg", "http://p4.img.cctvpic.com//photoworkspace/imageLocalized/2020/03/26/2020032610114829352.jpg", "http://pic.gerenjianli.com/mingren_larger/1977/40793143.jpg", "https://news.nju.edu.cn/uploadfiles/images/2017/2017_11/dce41d4692ea5c2aeb81af1a97e40c43.JPG"]
 
 class Downloader {
     
@@ -96,10 +96,6 @@ class ViewController: UIViewController {
         }
         queue.addOperation(operation4)
         
-    }
-    @IBAction func sliderValueChanged(sender: UISlider) {
-        
-        self.sliderValueLabel.text = "\(sender.value * 100.0)"
     }
 
  
